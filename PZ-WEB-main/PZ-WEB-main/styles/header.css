@@ -22,7 +22,6 @@ body{
 .header{
 
     padding: 1px;
-    background-color: #012d3f;
     margin-top: 70px;
     display: flex;
     justify-content: center;
@@ -50,7 +49,8 @@ body{
 }
 
 .body-landpage{
-    background-color: #001219;
+    background-image: url(../media/landpage-wallpaper.jpg);
+    background-size: 1924px;
 }
 
 .blood-image{
@@ -74,6 +74,8 @@ body{
 .Menu-slot{
     display: flex;
     position: relative;
+    font-size: 25px;
+    margin-left: 20px;
     
 
 }

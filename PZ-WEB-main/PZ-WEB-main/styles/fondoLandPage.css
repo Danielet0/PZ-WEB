@@ -1,0 +1,50 @@
+p{
+    font-family: roboto;
+    margin: 0;
+    font-weight: 500;
+}
+
+.fondo-Landpage{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: 120px;
+
+}
+.titulos{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    align-content: center;
+}
+
+.imagenes-landpage{
+    height: 300px;
+}
+
+.texto-landpage{
+    color: white;
+    font-size: 18px;
+}
+
+
+.resumen{
+    margin-top: 200px;
+    display: flexbox;
+}
+
+@media(max-width:1572px){
+        
+    .fondo-Landpage{
+    grid-template-columns: 1fr;
+    }
+
+    .imagenes-landpage{
+        height: 750px;
+    }
+
+    .texto-landpage{
+        font-size: 25px;
+    }
+}
