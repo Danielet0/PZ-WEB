@@ -1,0 +1,254 @@
+p{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    font-family: roboto, arial;
+}
+
+
+.pz-big-logo{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.pz-big-logo-image{
+    margin-bottom: -50px;
+
+
+}
+
+.header{
+
+    padding: 1px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    list-style-type: none;
+   
+}
+
+.menu-links{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 0,9s;
+    
+}
+
+.menu-links2{
+    font-weight: bold;
+    color: rgb(179, 12, 12);
+    text-decoration: none;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 0,9s;
+    
+}
+
+
+.body-landpage{
+    background-color: #001219;
+}
+
+.blood-image{
+    width: 70px;
+    position: absolute;
+    transform: translate(-16%, -26%);
+    z-index: 1;
+    cursor: pointer;
+    transition: opacity 0,9s;
+    opacity: 0;
+}
+
+.blood-image:active{
+    opacity: 0;
+}
+
+.blood-image:hover{
+    opacity: 1;
+}
+
+.Menu-slot{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    margin-left: 20px;
+    
+    
+
+}
+
+.blood-loc{
+    transform: translate(40%, -26%);
+}
+
+
+
+body{
+    background: rgb(0, 0, 20);
+}
+
+.frase{
+    color:#fff;
+    padding-left: 300px;
+    padding-top: 30PX;
+    font-size: medium;
+}
+.trailer{
+
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+}
+
+.steambuy{
+    display: block;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.buy{
+
+    display: block;
+    background-color: rgb(149, 38, 167);
+    color: white;
+  
+    width: 400px;
+    height: 140px;
+    margin: 40px;
+
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border: none;
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: -290px;
+}
+.buy:hover {opacity: 1}
+
+.buy:first-child{
+    background: rgb(232, 19, 65);
+}
+
+
+.buybox{
+
+    display:block;
+    
+}
+
+.comprartext{
+   
+    margin-top: -60px;
+ 
+}
+
+.comprartext1{
+
+    margin-top: 10px;
+    margin-left: -120px;
+}
+
+
+.flex-container1{
+    
+    display: flex;
+    justify-content: left;
+    margin-left: 300px;
+}
+.flex-container2{
+    
+    display: flex;
+    justify-content: left;
+    margin-left: 300px;
+}
+.flex-container3{
+    
+    display: flex;
+    justify-content: left;
+    margin-left: 300px;
+}
+.portada{
+    width: 420px;
+    height: 280px;
+    margin: 10px;   
+}
+
+.titulo{
+    color: rgb(179, 12, 12);
+    background-color: #fff;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.flex-items{
+    display: block;
+    color: #fff;
+    margin: 20px;
+    max-width: 350px;
+    margin-left: -50px;
+}
+.flex-containerIII{
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    
+}
+
+
+.titulog{
+
+color: rgb(179, 12, 12);
+padding-left: 300px;
+padding-top: 150px;;
+
+}
+
+.subtitulo{
+
+    font-size: medium;
+    padding-left: 300px;
+    color:#fff;
+    max-width: 1000px;
+  
+}
+
+.descripción{
+
+        font-size: larger;
+}
+
+.flex-containera{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.final{
+
+    margin-top: -100px;
+    padding-bottom: 100px;
+}
