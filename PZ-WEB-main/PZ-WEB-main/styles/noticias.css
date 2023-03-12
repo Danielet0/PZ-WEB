@@ -109,12 +109,35 @@
     
 }
 
-.linkedtext{
-    color: #fff;
+.titulo{
+    display:flex;
+    height: 35px;
 }
+
+.linkedtext{
+    display: flex;
+    color:rgb(226, 7, 7);
+    width: 390px;
+    height: 30px;
+  
+}
+
 .text{
-    color: #fff;
+    color: #ffffff;
     height: 50px;
     width: 390px;
 
+}
+
+.text:last-child{
+
+    color:rgb(109, 15, 15);
+}
+
+.news{
+    
+    font-size: xxx-large;
+    color:rgb(179, 12, 12);
+    margin-left: 800px;
+    margin-top: 40px;
 }
